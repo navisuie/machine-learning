@@ -18,6 +18,7 @@ virginica, and Iris versicolor, each flower was categorized into 4 variables, th
 sepals which is the green leaf like structure found underneath the petals. And, the length and the width of
 the petal, which is also called the corolla and is the fun colorful part of the flower. Comparing the
 variables and training the algorithm to predict what species the flower may be is what I did.
+
   Figure 1 shows the relationship of the four variables, sepal length and width also petal length and
 width. The figure takes the first entry in the data and plots all its attributes, continuing all the way to the
 end of the data. Plotting all the entries. For example, the first entry has a sepal length of 5.1 then going to
@@ -28,6 +29,7 @@ while one lines trend changes the other lines follow. At about count number 50, 
 in an increase to the next data point at count number 49 the sepal length is 5.0 and at count 50 the sepal
 length is 7.0, but the best discovery is that the reason for the shift could be because at count 49 the species
 is Iris-setosa but at count 50 the species is Iris versicolor.
+
   Figure 2 is the K-means clustering of the data set. There are 3 clusters in the figure one cluster
 per species. The clustering is done to show some relationship between the species and if we can pick out a
 way to better predict what species the flower could be. In the clustering it is very apparent that from just
@@ -38,6 +40,7 @@ virginica can be much harder. I believe any incorrect answers the predicting met
 come from this problem. You can still make a very good guess but looking at the point whose coordinates
 are ~ sepal length of 6.2 and sepal width of 2.6 according to the data you would guess this point to be a
 setosa, but this is an outlier, and the point can be identified as a virginica
+
   Figure 3 is showing the coefficients of logistic regression. Unlike the name Logistic regression is
 not a regression but rather a classification. A classification is used to predict categories that do not have a
 value associated with them but rather a label in this case predicting what species the flower is. In figure 3
